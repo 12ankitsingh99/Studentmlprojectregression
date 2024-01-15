@@ -29,6 +29,7 @@ def predict_datapoint():
             clarity = request.form.get('clarity')
         )
 
+        
         pred_df = data.get_data_as_dataframe()
         
         print(pred_df)
